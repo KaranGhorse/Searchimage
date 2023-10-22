@@ -91,3 +91,39 @@ input::placeholder{
     color: rgb(0, 38, 22);
     font-weight: 700;
 }
+
+@media (max-width:600px) {
+    #main{
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #main form{
+        width: 96%;
+        height: 50px; 
+        border-radius: 10px;  
+    }
+    form input{
+        margin: 0 0 0 10px;
+    }
+    form i{
+        margin-left: 10px;
+    }
+    .btn{
+        height: 40px;
+        padding: 0 15px;
+    }
+    .img-box img {
+    height: 304px;
+    border-radius: 12px;
+    }
+    .img-box{
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+    }
+    #show-more{
+        /* margin-top: 30px; */
+        margin-bottom: 50px;
+    }
+}
